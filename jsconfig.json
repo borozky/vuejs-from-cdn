@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+      },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "./types/index.d.ts"
+        ]
+    },
+}
