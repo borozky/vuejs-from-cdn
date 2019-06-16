@@ -10,7 +10,7 @@
     ],
     "typeAcquisition": {
         "include": [
-            "./types/index.d.ts"
+            "./index.d.ts"
         ]
     },
 }
