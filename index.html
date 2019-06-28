@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Using VueJS from CDN</title>
     <style>
-        #root { visibility: hidden }
-        #root.ready { visibility: visible }
+        [v-cloak] { display: none; }
     </style>
 </head>
 <body>
-    <div id="root" v-bind:class="rootClass">
-        <h1>Vue application</h1>
+    <div id="root" v-cloak>
+        <h1>{{pageTitle}}</h1>
         <nav>
             <router-link to="/">Index</router-link>
             <router-link to="/sample-form">Sample Form</router-link>
